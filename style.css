@@ -1,0 +1,237 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+#banner{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80%;
+    margin: 5px auto 16px;
+}
+#banner p{
+    color:rgb(241, 235, 235);
+}
+#banner h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+.heading{
+    margin: 2rem;
+}
+#banner .btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(231, 53, 53);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+#donate-today{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80%;
+    margin: 5px auto 16px;
+    color: black;
+    font-weight: bold;
+}
+#donate-today h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+#donate-today p{
+    width: 80%;
+}
+#gift-box{
+    display: flex;
+    
+}
+.gift-item{
+    background-color: rgba(0, 0, 0, 0.137);
+    font-size: xx-large;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    margin: 1rem;
+    padding: 2rem 1rem;
+}
+#gift-box .btn{
+    margin: 1rem;
+}
+.others{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.others input{
+    width: 70%;
+    margin: 2rem 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: rgb(231, 53, 53);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: black;
+}
+#donation-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80%;
+    margin: 5px auto 16px;
+    color: black;
+    font-weight: bold; 
+}
+#plan-box{
+    display: flex;
+    width: 80%;
+}
+.donation-plan-text{
+    width: 90%;
+    text-align: center;
+}
+.plan{
+    text-align: left;
+    padding: 1rem 1rem;
+    margin:1rem 1rem ;
+}
+#donation-plan h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.plan h3{
+    font-size:30px;
+    font-weight: bolder;
+   
+    
+}
+#updates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 80%;
+    margin: 16px auto 16px;
+    color: black;
+    font-weight: bold; 
+}
+#updates h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;  
+}
+#updates p{
+    width: 80%;
+}
+#email-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.151);
+    height: 30vh;
+    width: 70%;
+    margin: 5px auto 16px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+#email-box .email{
+    padding: 2.5px 2.5px;
+    
+
+}
+#email-box .btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(231, 53, 53);
+    padding: 4.5px 5px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#volunteer{
+   
+    height: 40vh;
+    width: 80%;
+    margin: 1rem;
+    color: black;
+     
+}
+#volunteer h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+#volunteer .volunteer-list img{
+    height: 10rem;
+    width: 10rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+}
+#volunteer .volunteer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#volunteer .btn{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(231, 53, 53);
+    padding: 5px 5px;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center}
+.img-modify{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    margin: 0 1rem;
+}
+    
+.color1{
+    background-color: rgba(76, 109, 99, 0.082);
+    
+}
+.color2{
+    background-color: rgba(153, 127, 127, 0.123);
+    
+}
+.color3{
+    background-color:rgba(78, 65, 47, 0.048)
+}
